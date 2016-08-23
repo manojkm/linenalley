@@ -137,7 +137,7 @@ span.product_cell_price:hover {
 }
 
 .familylist ul {
-    @include background-image("brands_home.jpg", 0 top, none);
+    @include background-image("brands_home.jpg", center top, none);
     padding: 120px 0 0 0;
     margin: 20px 0
 }
@@ -146,7 +146,8 @@ span.product_cell_price:hover {
     display: block;
     float: left;
     padding-top: 5px 10px;
-    width: 300px
+    width: 300px;
+    text-align: center;
 }
 
 ul.linenSocial {
