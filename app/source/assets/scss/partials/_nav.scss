@@ -14,8 +14,8 @@
             @include background-image("home.png", 0 0px, none);
             padding: 0 0 0 20px;
         }
-        li:last-child a {
-            color: #e0c418
+        li:nth-child(7) a {
+            color: $hYellow;
         }
     }
     form {

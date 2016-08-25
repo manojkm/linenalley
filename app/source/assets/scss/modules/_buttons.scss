@@ -1,0 +1,12 @@
+.btn_blue {
+    background: $military-blue;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none!important;
+    color: #fff!important;
+    border-radius: 5px
+}
+
+.btn_blue:hover {
+    background: $cool-blue!important
+}
