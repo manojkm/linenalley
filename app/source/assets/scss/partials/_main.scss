@@ -78,7 +78,7 @@
 
 #about_us {
     border: 1px solid lighten($grey, 30%);
-    border-width: 1px 0 1px 0;
+    border-width: 1px 0 0px 0;
     padding: 20px 0 10px 0;
     p {
         text-align: center;
@@ -166,6 +166,90 @@ ul.linenSocial {
     }
 }
 
-.blogpage {
+.blogWrapper {
+    @include background-image("bg-blog1.png", -17% 50%, $military-blue);
     text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    a:hover {
+        opacity: 0.8;
+    }
+    h3 {
+        color: #fff;
+        font-size: 2.188em
+    }
+    h4 {
+        color: #fff;
+        font-size: 1.500em
+    }
+    h5 {
+        font-weight: normal;
+        color: #fff;
+        opacity: 0.8;
+    }
+    .blogInner {
+        @include background-image("bg-blog2.png", 108% 100%, none);
+        padding: 50px 10px;
+    }
+}
+
+#newBlog {
+  .thumbnail img{ height: 280px; width: 100%}
+    ul.thumbnails {
+        padding: 0;
+        margin: 0
+    }
+    h3 {
+        line-height: 25px;
+        padding: 5px 0;
+        a {
+            color: #0b358c;
+            text-decoration: none;
+            font-weight: bold;
+            line-height: normal;
+        }
+    }
+    img:hover {
+        opacity: 0.8;
+    }
+    .entry-meta {
+        font-size: 0.938em;
+        padding: 0 0 10px 0;
+        .updated {
+            display: none;
+        }
+        a {
+            text-decoration: none;
+            color: $grey;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .posted-on,
+        .byline,
+        .cat-links,
+        .comments-link {
+            padding: 0 15px 0 0px;
+        }
+        i {
+            font-style: normal;
+            color: $grey;
+        }
+        /* .posted-on {
+            padding: 0 15px 0 18px;
+            @include background-image("posted-on.jpg", 0 1px, none);
+        }
+        .byline {
+            padding: 0 15px 0 18px;
+            @include background-image("byline.jpg", 0 1px, none);
+        }
+        .cat-links {
+            padding: 0 15px 0 18px;
+            @include background-image("cat-links.jpg", 0 1px, none);
+        }
+        .comments-link {
+            padding: 0 15px 0 18px;
+            @include background-image("comments-link.jpg", 0 1px, none);
+        } */
+    }
 }
