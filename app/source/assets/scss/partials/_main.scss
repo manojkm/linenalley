@@ -197,7 +197,10 @@ ul.linenSocial {
   .thumbnail img{ height: 280px; width: 100%}
     ul.thumbnails {
         padding: 0;
-        margin: 0
+        margin: 0;
+
+        li{ margin-bottom: 30px;  min-height: 520px}
+        .blogcontent{}
     }
     h3 {
         line-height: 25px;
